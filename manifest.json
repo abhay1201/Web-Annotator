@@ -1,0 +1,31 @@
+{
+  "name": "Web Annotify",
+  "version": "1.0",
+  "description": "A Chrome extension for annotating web pages with highlighting, notes, search, and filter functionalities.",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+    
+],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images.png"
+      
+  },
+  
+  "icons": {
+    "128": "images.png"
+},
+  "background":{
+    "service_worker":"background.js"
+},
+  "content_scripts":[
+  
+  
+  ]
+  
+}
+
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Annotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="tittle"> Web Annotify</h1>
+<hr>
+   <div class="card">
+        <img src="icons8-highlight-48.png" class="card-img-top" alt="...">
+      
+        <div class="card-body ">
+          <button id="highlight" type="button" class="btn-btn-color">Highlight</button>
+          <p class="card-text"> Select and Highlight your Text</p>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <img src="icons8-note-50.png" class="card-img-top" alt="...">
+        <textarea id="noteInput" placeholder="Paste your highlight text here..."></textarea>
+    <br>
+    <button id="addButton" class="btn-btn-color">Add Note</button>
+    <button id="retrieveButton" class="btn-btn-color">Retrieve Note</button>
+    <p id="savedNote"></p>
+        
+    </div>
+    
+    <div class="card">
+        <img src="icons8-search-50.png" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+            <input type="text" id="searchInput" placeholder="Search note...">
+            <button id="searchButton" class="btn-btn-color">Search</button>
+          <p class="card-text">Search your Activity
+          </p>
+        </div>
+        
+    </div>
+   
+    <div class="card">
+        <img src="icons8-share-30.png" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+            <button  id="shareButton" type="button" class="btn-btn-color">Share</button>
+          <p class="card-text">share your Text</p>
+        </div>
+        
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
