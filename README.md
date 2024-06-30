@@ -9,8 +9,8 @@ A Chrome extension for annotating web pages with highlighting, notes, search, an
 - Share your note with anyone 
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/abhay1201/Web-Annotator.git`
-2. Open Chrome and go to `chrome://extensions/`
+1. Clone the repository: ```git clone https://github.com/abhay1201/Web-Annotator.git`
+2. Open Chrome and go to ```chrome://extensions/`
 3. Enable "Developer mode" (top right corner)
 4. Click "Load unpacked" and select the cloned repository folder
 
